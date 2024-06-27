@@ -1,0 +1,25 @@
+/* Write your code here. */
+
+.backGround-container {
+  background-image: linear-gradient(to right, #9796f0, #9796f0, #fbc7d4);
+}
+.container-for-the-emojis {
+  list-style-type: none;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .backGround-container {
+    min-width: 300px;
+  }
+}
+@media (min-width: 769px) {
+  .backGround-container {
+    width: 70%;
+  }
+}
+.background {
+  background-color: #ffffff30;
+  border: 1px solid #ffffff30;
+}

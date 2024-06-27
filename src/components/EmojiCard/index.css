@@ -1,0 +1,40 @@
+/* Write your code here. */
+
+.emojiCard {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff30;
+  border: 1px solid #ffffff30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .image-styling {
+    width: 40px;
+    height: 40px;
+  }
+  .emojicard {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+  .image-styling {
+    width: 60px;
+    height: 60px;
+  }
+  .emojicard {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+  }
+}
+.button-styling {
+  background-color: transparent;
+  border: none;
+}

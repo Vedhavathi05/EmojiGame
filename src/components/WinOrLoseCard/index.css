@@ -1,0 +1,7 @@
+/* Write your code here. */
+.styling-the-won-and-lose-card {
+  width: 600px;
+  height: 600px;
+  background-color: #ffffff30;
+  display: flex;
+}
